@@ -1,0 +1,40 @@
+{
+    "name": "Competition World Cup Quiz",
+    "description": "This competition occurs every 4 years how well will you do!",
+    "questions": [
+         {
+            "id": 1,
+            "text": "Which team has most World Cup wins?",
+            "options": ["Brazil", "England", "Spain", "Argentina"],
+            "correct": "Brazil"
+        },
+        {
+            "id": 2,
+            "text": "How many teams total teams competed in the World Cup",
+            "options": ["60", "75", "91", "80"],
+            "correct": "80"
+        },
+        {
+            "id": 3,
+            "text": "Which La liga stadium has the most capacity?",
+            "options": ["Barcelona", "Real Madrid", "Real Betis", "Villarreal"],
+            "correct": "Barcelona"
+        },
+        {
+
+            "id": 4,
+            "text": "How many years does it take for the world cup to take place?",
+            "options": ["2", "1", "3", "4"],
+            "correct": "4"
+        },
+        {
+
+            "id": 5,
+            "text": "How many world cups have there been?",
+            "options": ["10", "15", "19", "22"],
+            "correct": "22"
+        }
+
+
+    ]
+}

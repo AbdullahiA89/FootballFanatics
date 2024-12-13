@@ -1,0 +1,40 @@
+{
+    "name": "League Premier League Quiz",
+    "description": "How good is your knowledge on the most competitive league in the world??",
+    "questions": [
+         {
+            "id": 1,
+            "text": "Which team has the most titles in Premier League?",
+            "options": ["Manchester United", "Chelsea", "Man City", "Liverpool"],
+            "correct": "Manchester United"
+        },
+        {
+            "id": 2,
+            "text": "How many teams compete in Premier League?",
+            "options": ["10", "15", "20", "22"],
+            "correct": "20"
+        },
+        {
+            "id": 3,
+            "text": "Which Premier League stadium has the most capacity?",
+            "options": ["Chelsea", "Manchester Utd", "Everton", "Tottenham"],
+            "correct": "Manchester United"
+        },
+        {
+
+            "id": 4,
+            "text": "What year did the Premier League start?",
+            "options": ["1967", "1992", "2000", "1981"],
+            "correct": "1992"
+        },
+        {
+
+            "id": 5,
+            "text": "Who had the most wins in a season?",
+            "options": ["Chelsea", "Manchester Utd", "Manchester City", "Tottenham"],
+            "correct": "Manchester City"
+        }
+
+
+    ]
+}

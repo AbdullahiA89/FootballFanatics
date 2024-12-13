@@ -1,0 +1,40 @@
+{
+    "name": "League Serie A Quiz",
+    "description": "Is your brain stored with history on the italian league?",
+    "questions": [
+         {
+            "id": 1,
+            "text": "Which team has the most titles in Serie A?",
+            "options": ["Juventus", "Milan", "Genoa", "Roma"],
+            "correct": "Juventus"
+        },
+        {
+            "id": 2,
+            "text": "How many teams compete in seria A since 2005?",
+            "options": ["10", "15", "20", "22"],
+            "correct": "20"
+        },
+        {
+            "id": 3,
+            "text": "Which Serie A stadium has the most capacity?",
+            "options": ["Bologna", "Atalanta", "Juventus", "Milan"],
+            "correct": "Atalanta"
+        },
+        {
+
+            "id": 4,
+            "text": "Who won the league in Serie A in 2023?",
+            "options": ["Milan", "Inter Milan", "Atalanta", "Juventus"],
+            "correct": "Inter Milan"
+        },
+        {
+
+            "id": 5,
+            "text": "Who had the most goals in 2023 Serie A season?",
+            "options": ["Victor Osimhen", "Lautaro Martinez", "Dusan Vlahovic", "Duvan Zapata"],
+            "correct": "Lautaro Martinez"
+        }
+
+
+    ]
+}

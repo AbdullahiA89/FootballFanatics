@@ -1,0 +1,40 @@
+{
+    "name": "Competition Champions League Quiz",
+    "description": "The best teams in each league compete yearly do you remember the past!",
+    "questions": [
+         {
+            "id": 1,
+            "text": "How many teams compete in the Champion League?",
+            "options": ["22", "21", "20", "19"],
+            "correct": "22"
+        },
+        {
+            "id": 2,
+            "text": "What year did Champions league start?",
+            "options": ["1945", "1995", "1912", "1955"],
+            "correct": "1955"
+        },
+        {
+            "id": 3,
+            "text": "Which team won champions league the most?",
+            "options": ["Barcelona", "Real Madrid", "Chelsea", "Bayern Munich"],
+            "correct": "Real Madrid"
+        },
+        {
+
+            "id": 4,
+            "text": "Who has most champions league Goals?",
+            "options": ["Lionel Messi", "Robert Lewandowski", "Cristiano Ronaldo", "Thierry Henry"],
+            "correct": "Cristiano Ronaldo"
+        },
+        {
+
+            "id": 5,
+            "text": "Who had most champions league appearances?",
+            "options": ["Lionel Messi", "Ronaldinho", "Cristiano Ronaldo", "Xavi"],
+            "correct": "Cristiano Ronaldo"
+        }
+
+
+    ]
+}

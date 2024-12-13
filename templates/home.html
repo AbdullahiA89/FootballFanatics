@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}Home - Football Quiz{% endblock %}
+
+{% block content %}
+<h1>Do you dare test your Football Knowledge!</h1>
+<h2>Click below the category you desire!</h2>
+<div class="triangle-container">
+    <!-- Player -->
+    <div class="category player">
+        <img src="{{ url_for('static', filename='images/player.jpg') }}" alt="Player Image">
+        <a href="{{ url_for('players') }}" class="category-btn">Player</a>
+    </div>
+
+    <div class="category league">
+        <img src="{{ url_for('static', filename='images/league.jpg') }}" alt="League Image">
+        <a href="{{ url_for('league') }}" class="category-btn">League</a>
+    </div>
+    <!-- Competition -->
+    <div class="category competition">
+        <img src="{{ url_for('static', filename='images/competition.jpg') }}" alt="Competition Image">
+        <a href="{{ url_for('competition') }}" class="category-btn">Competition</a>
+    </div>
+</div>
+{% endblock %}

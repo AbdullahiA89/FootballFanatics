@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="quiz-container">
+    <!-- Timer -->
+    <div id="timer" class="timer">Time Left: 00:20</div>
+
+    <!-- Question Section -->
+    <div class="question-box">
+        <h1 class="quiz-question">{{ question.text }}</h1>
+    </div>
+
+    <!-- Options Section -->
+    <form method="POST" action="{{ url_for('quiz_submit') }}" id="quiz-form">
+        <div class="quiz-options">
+            {% for option in question.options %}
+                <label class="quiz-option">
+                    <input type="radio" name="answer" value="{{ option }}" required onchange="highlightSelection(this)">
+                    {{ option }}
+                </label>
+            {% endfor %}
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="quiz-submit">Next</button>
+    </form>
+
+    <!-- Progress Tracker -->
+    <p class="quiz-progress">Question {{ current + 1 }} of {{ total }}</p>
+</div>
+
+<script>
+    let totalTime = 20; // Set timer in seconds
+    const timerElement = document.getElementById('timer');
+
+    function formatTime(seconds) {
+        const minutes = Math.floor(seconds / 60);
+        const remainingSeconds = seconds % 60;
+        return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
+    }
+
+    function startTimer() {
+        const timerInterval = setInterval(() => {
+            totalTime--;
+            timerElement.textContent = `Time Left: ${formatTime(totalTime)}`;
+            if (totalTime <= 0) {
+                clearInterval(timerInterval);
+                alert("Time's up! Submitting your quiz.");
+                document.getElementById('quiz-form').submit();
+            }
+        }, 1000);
+    }
+
+         function highlightSelection(input) {
+        // Remove 'selected' class from all options
+        const options = document.querySelectorAll('.quiz-option');
+        options.forEach(option => option.classList.remove('selected'));
+
+        // Add 'selected' class to the parent label of the clicked input
+        input.parentElement.classList.add('selected');
+    }
+
+
+    startTimer();
+</script>
+{% endblock %}
