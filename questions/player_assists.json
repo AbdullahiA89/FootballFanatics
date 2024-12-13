@@ -1,0 +1,40 @@
+{
+    "name": "Player Assists Quiz",
+    "description": "How well do you know which player is the playmaker!",
+    "questions": [
+        {
+            "id": 1,
+            "text": "Which football player has the most assists?",
+            "options": ["Lionel Messi", "Louis Suarez", "Kevin De Bruyne", "Xavi"],
+            "correct": "Lionel Messi"
+        },
+        {
+            "id": 2,
+            "text": "Which player has the most all time assists in Premier League",
+            "options": ["Steven Gerrard", "David Beckham", "Kevin De Bruyne", "Ryan Giggs"],
+            "correct": "Ryan Giggs"
+        },
+        {
+            "id": 3,
+            "text": "Who is currently leading with the most assists in the Premier League?",
+            "options": ["Amad Diallo", "Mo Salah", "Bukayo Saka", "Cole palmer"],
+            "correct": "Bukayo Saka"
+        },
+        {
+
+            "id": 4,
+            "text": "Which striker has the most assists in the Premier League All time?",
+            "options": ["Thierry Henry", "Dennis Bergkamp", "Mohammed Salah", "Wayne Rooney"],
+            "correct": "Wayne Rooney"
+        },
+        {
+
+            "id": 5,
+            "text": "Which player has the second most assists of All time?",
+            "options": ["Thomas Muller", "Angel Di Maria", "Cristiano Ronaldo", "Lionel Messi"],
+            "correct": "Thomas Muller"
+        }
+
+
+    ]
+}

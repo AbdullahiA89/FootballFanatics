@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="content">
+    <h1>League Quizzes</h1>
+    <p>Decide which quiz you wish to complete</p>
+
+    <!-- Vertical List Layout -->
+    <div class="quiz-list">
+        <div class="quiz-item">
+            <div class="quiz-description">
+                <h2>Premier League</h2>
+                <p>How good is your knowledge on the most competitive league in the world?</p>
+            </div>
+            <div class="quiz-action">
+                <a href="/quiz/league_premier_league" class="quiz-btn">Take Quiz</a>
+            </div>
+        </div>
+        <div class="quiz-item">
+            <div class="quiz-description">
+                <h2>La Liga</h2>
+                <p>Will you be able to get all the questions right on the spanish league?</p>
+            </div>
+            <div class="quiz-action">
+                 <a href="/quiz/league_la_liga" class="quiz-btn">Take Quiz</a>
+            </div>
+        </div>
+        <div class="quiz-item">
+            <div class="quiz-description">
+                <h2>Serie A</h2>
+                <p>Is your brain stored with history on the italian league?</p>
+            </div>
+            <div class="quiz-action">
+                 <a href="/quiz/league_serie_a" class="quiz-btn">Take Quiz</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

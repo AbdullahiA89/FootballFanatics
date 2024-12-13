@@ -1,0 +1,40 @@
+{
+    "name": "Player Accolades Quiz",
+    "description": "Guess the player based on the accolade in the question!",
+    "questions": [
+         {
+            "id": 1,
+            "text": "Which player won best fifa mens player in 2017?",
+            "options": ["Lionel Messi", "Cristiano Ronaldo", "Neymar", "Antione Greizmann"],
+            "correct": "Cristiano Ronaldo"
+        },
+        {
+            "id": 2,
+            "text": "Who won Puskas award in 2011?",
+            "options": ["Neymar", "Lionel Messi", "Cristiano Ronaldo", "Wayne Rooney"],
+            "correct": "Neymar"
+        },
+        {
+            "id": 3,
+            "text": "Who was the ballon d'or winner in 2024?",
+            "options": ["Vinicius Junior", "Rodri", "Jude Bellingham", "Lamine Yamal"],
+            "correct": "Rodri"
+        },
+        {
+
+            "id": 4,
+            "text": "Who won the most ballon d'ors?",
+            "options": ["Cristiano Ronaldo", "Lionel Messi", "Ronaldo", "Rivaldo"],
+            "correct": "Lionel Messi"
+        },
+        {
+
+            "id": 5,
+            "text": "Which coach won best mens coach in 2023?",
+            "options": ["Pep Guardiola", "Luciano Spalletti", "Simone Inzaghi", "Xavi"],
+            "correct": "Alisson Becker"
+        }
+
+
+    ]
+}

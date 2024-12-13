@@ -1,0 +1,45 @@
+{
+    "name": "Player Goals Quiz",
+    "description": "Test your knowledge of legendary football goals!",
+    "questions": [
+         {
+            "id": 1,
+            "text": "Who scored the world cup final goal in 2014?",
+            "options": ["Mario Gotze", "Lionel Messi", "Toni Kroos", "Mesut Ozil"],
+            "correct": "Mario Gotze"
+        },
+        {
+            "id": 2,
+            "text": "Who scored the title winner for Manchester city against QPR?",
+            "options": ["Sergio Aguero", "Erling Haaland", "Vincent Kompany", "Phil Foden"],
+            "correct": "David Silva"
+        },
+        {
+            "id": 3,
+            "text": "Which England player scored the last goal against spain in 2024?",
+            "options": ["Trent Alexander Arnold", "Cole Palmer", "Bukayo Saka", "Phil Foden"],
+            "correct": "Cole Palmer"
+        },
+        {
+
+            "id": 4,
+            "text": "Who scored last minute goal for Watford vs Leicester city?",
+            "options": ["Troy Deeney", "Nathaniel Chalobah", "Harry Kane", "Jaime Vardy"],
+            "correct": "Troy Deeney"
+        },
+        {
+
+            "id": 5,
+            "text": "Who scored the last minute header in Liverpool vs West Browmich?",
+            "options": ["Mo Salah", "Alisson Becker", "Trent Alexander Arnold", "Sadio Mane"],
+            "correct": "Alisson Becker"
+        },
+        {
+
+            "id": 6,
+            "text": "Who scored the hat trick for France in the World Cup final?",
+            "options": ["Killian Mbappe", "Antionne Greizmann", "Achraf Hakimi", "Ngolo Kante"],
+            "correct": "Killian Mbappe"
+        }
+    ]
+}

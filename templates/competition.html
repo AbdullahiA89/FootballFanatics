@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="content">
+    <h1>Competition Quizzes</h1>
+    <p>Select which quiz you would like to tackle</p>
+
+    <!-- Vertical List Layout -->
+    <div class="quiz-list">
+        <div class="quiz-item">
+            <div class="quiz-description">
+                <h2>World Cup</h2>
+                <p>This competition occurs every 4 years how well will you do!</p>
+            </div>
+            <div class="quiz-action">
+                 <a href="/quiz/competition_world_cup" class="quiz-btn">Take Quiz</a>
+            </div>
+        </div>
+        <div class="quiz-item">
+            <div class="quiz-description">
+                <h2>Champions League</h2>
+                <p>The best teams in each league compete yearly do you remember the past!</p>
+            </div>
+            <div class="quiz-action">
+                <a href="/quiz/competition_champions_league" class="quiz-btn">Take Quiz</a>
+            </div>
+        </div>
+        <div class="quiz-item">
+            <div class="quiz-description">
+                <h2>Euros</h2>
+                <p>Take this test if you acquire the knowledge on the international competition!</p>
+            </div>
+            <div class="quiz-action">
+                <a href="/quiz/competition_euros" class="quiz-btn">Take Quiz</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

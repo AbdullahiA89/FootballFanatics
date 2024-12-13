@@ -1,0 +1,40 @@
+{
+    "name": "League La Liga Quiz",
+    "description": "Will you be able to get all the questions right on the spanish league?",
+    "questions": [
+         {
+            "id": 1,
+            "text": "Which team has the most titles in La liga?",
+            "options": ["Real Madrid", "Barcelona", "Athletico Madrid", "Valencia"],
+            "correct": "Real Madrid"
+        },
+        {
+            "id": 2,
+            "text": "How many teams compete in La liga?",
+            "options": ["10", "15", "20", "22"],
+            "correct": "20"
+        },
+        {
+            "id": 3,
+            "text": "Which La liga stadium has the most capacity?",
+            "options": ["Barcelona", "Real Madrid", "Real Betis", "Villarreal"],
+            "correct": "Barcelona"
+        },
+        {
+
+            "id": 4,
+            "text": "What year did the La liga start?",
+            "options": ["1929", "1956", "2001", "1934"],
+            "correct": "1992"
+        },
+        {
+
+            "id": 5,
+            "text": "Who had the most wins in a season?",
+            "options": ["Barcelona", "Real Madrid", "Real Betis", "Villarreal"],
+            "correct": "Real Madrid"
+        }
+
+
+    ]
+}

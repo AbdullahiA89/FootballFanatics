@@ -1,0 +1,40 @@
+{
+    "name": "Competition Euros Quiz",
+    "description": "Take this test if you acquire the knowledge on the international competition!",
+    "questions": [
+         {
+            "id": 1,
+            "text": "What year did the euros start?",
+            "options": ["1950", "1952", "1960", "1980"],
+            "correct": "1960"
+        },
+        {
+            "id": 2,
+            "text": "What year did Womens Euro start?",
+            "options": ["1960", "1895", "1991", "1984"],
+            "correct": "1984"
+        },
+        {
+            "id": 3,
+            "text": "Who was the youngest player to participate in Euros?",
+            "options": ["Lamine Yamal", "Cole Palmer", "Nico Williams", "Lionel Messi"],
+            "correct": "Lamine Yamal"
+        },
+        {
+
+            "id": 4,
+            "text": "Who was the Oldest player to participate in Euros?",
+            "options": ["Gabor Kiraly", "Harry Kane", "Pepe", "Thierry Henry"],
+            "correct": "Pepe"
+        },
+        {
+
+            "id": 5,
+            "text": "Who won the euros without qualifying ",
+            "options": ["England", "France", "Spain", "Denmark"],
+            "correct": "Denmark"
+        }
+
+
+    ]
+}
